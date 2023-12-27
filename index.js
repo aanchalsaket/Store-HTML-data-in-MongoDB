@@ -5,6 +5,9 @@ const mongoose = require("mongoose")
 const app = express()
 const port = 3000
 
+// middleware 
+app.use(express.urlencoded({extended: true}))
+
 mongoose.connect("mongodb://localhost:27017/UserDataDB").then(()=>{
     console.log("Database Connected")
 }).catch((e)=>{
