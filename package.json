@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aanchalsaket/Store-HTML-data-in-MongoDB/issues"
   },
-  "homepage": "https://github.com/aanchalsaket/Store-HTML-data-in-MongoDB#readme"
+  "homepage": "https://github.com/aanchalsaket/Store-HTML-data-in-MongoDB#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
